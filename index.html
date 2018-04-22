@@ -1,0 +1,847 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+  	<meta charset="utf-8">
+  	<title>奈瑞商城</title>
+  	<link rel="stylesheet" href="css/normalize.css">
+  	<link rel="stylesheet" href="css/main.css">
+  	<link rel="stylesheet" href="css/pop.css">
+  	<script src="https://cdn.bootcss.com/jquery/2.0.2/jquery.min.js"></script>
+  </head>
+  <body>
+  	<header>
+  		<nav class="nav-top">
+  		   <div class="container clearfix">
+  		   	 <div class="nav-left">
+  		   	 	<a href="">奈瑞商城</a>
+  		   	 	<a href="">云服务</a>
+  		   	 	<a href="">水滴</a>
+  		   	 	<a href="">金融</a>
+  		   	 	<a href="">有品</a>
+  		   	 	<a href="">mac</a>
+  		   	 	<a href="">好搜</a>
+  		   	 	<a href="">Select Region</a>
+  		   	 </div>
+  		   	 <div class="nav-right">
+  		   	   <div class="nav-cart">
+  		   	   	 <i></i>
+  		   	   	 <span>购物车</span>
+  		   	   	 <span>(0)</span>
+  		   	   	 <div class="nav-cart-message" style="display:none;">
+  		   	   	  <p>购物车中还没有商品，赶快选购吧！</p>
+  		   	     </div>
+  		   	   </div>
+  		   	   
+  		   	 </div>
+  		   	 <div class="nav-right rg">
+  		   	   <div class="nav-login">
+  		   	   	 <a href="login.html">登录</a>
+  		   	   	 <a href="register.html">注册</a>
+  		   	   	 <a href="">消息通知</a>
+  		   	   </div>
+  		   	 </div>
+  		   	 
+  		   </div>
+  		</nav>
+  		<nav class="nav-main">
+  		   <div class="container clearfix">
+  		   	 <div class="logo">
+  		   	 	<img src="images/logo.png" alt="奈瑞商城">
+  		   	 </div>
+  		   	 <div class="main-nav-ul">
+  		   	 	<li><a href="">手机专场</a></li>
+  		   	 	<li><a href="">电视</a></li>
+  		   	 	<li><a href="">笔记本</a></li>
+  		   	 	<li><a href="">盒子</a></li>
+  		   	 	<li><a href="">新品</a></li>
+  		   	 	<li><a href="">路由器</a></li>
+  		   	 	<li><a href="">智能硬件</a></li>
+  		   	 	<li><a href="">服务</a></li>
+  		   	 	<li><a href="">社区</a></li>
+  		   	 </div>
+  		   	 <div class="main-nav-search">
+  		   	 	<form action="">
+  		   	 	  <div class="nav-search-input">
+  		   	 	  	<input class="search" type="text">
+  		   	 	  	<input type="submit" value="&nbsp;" class="search-btn">
+  		   	 	  </div>
+  		   	 	  <div class="nav-tag">
+  		   	 	  	  <a href="">华为手机</a>
+  		   	 	  	  <a href="">iphoneX</a>
+  		   	 	  </div>
+  		   	 	  <div class="keyword-list" style="display:none">
+  		   	 	  	<ul class="result-list">
+  		   	 	  	  <li><a href=""><span>xxxx</span><span class="span-re">约有<span>25</span>件</span></a></li>
+  		   	 	  	  <li><a href=""><span>xxxx</span><span class="span-re">约有<span>25</span>件</span></a></li>
+  		   	 	  	  <li><a href=""><span>xxxx</span><span class="span-re">约有<span>25</span>件</span></a></li>
+  		   	 	  	</ul>
+  		   	 	  </div>
+  		   	 	</form>
+  		   	 </div>
+  		   </div>
+  		</nav>
+  	</header>
+    
+    <div class="main-banner">
+       <div class="container pos">
+       	  <div id="igs">
+            <a class="ig" href="#"><img src="images/banner1.png"/></a>
+            <a class="ig" href="#"><img src="images/banner2.jpg"/></a>
+            <a class="ig" href="#"><img src="images/banner3.jpg"/></a>
+            <a class="ig" href="#"><img src="images/banner4.jpg"/></a>
+            <a class="ig" href="#"><img src="images/banner5.jpg"/></a>
+       
+            <div class="btn prev"><</div>
+            <div class="btn next">></div>
+       
+            <ul id="tabs">
+              <li class="tab active"></li>
+              <li class="tab"></li>
+              <li class="tab"></li>
+              <li class="tab"></li>
+              <li class="tab"></li>
+            </ul>
+          </div>
+       	  <div class="Jm-tab">
+       	  	<ul class="Jm-ul">
+       	  		<li><a href="">笔记本 <span>></span></a></li>
+       	  		<li><a href="">耳机 音箱<span>></span></a></li>
+       	  		<li><a href="">路由器 手机配件<span>></span></a></li>
+       	  		<li><a href="">移动电源<span>></span></a></li>
+       	  		<li><a href="">电视机<span>></span></a></li>
+       	  		<li><a href="">智能家电<span>></span></a></li>
+       	  		<li><a href="">手机 电话卡<span>></span></a></li>
+       	  		<li><a href="">健康 家居<span>></span></a></li>
+       	  		<li><a href="">出行<span>></span></a></li>
+       	  		<li><a href="">游戏<span>></span></a></li>
+       	  	</ul>
+       	  <div class="tab-content">
+       	  	<div class="three">
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  	</div>
+       	  	<div class="three">
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  	</div>
+       	  	<div class="four">
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  	</div>
+       	  	<div class="three">
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  	</div>
+       	  	<div class="three">
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  	</div>
+       	  	<div class="three">
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  	</div>
+       	  	<div class="four">
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  	</div>
+       	  	<div class="four">
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  	</div>
+       	  	<div class="three">
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  	</div>
+       	  	<div class="three">
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  		<ul>
+       	  			<li><a href=""><span class="icon"></span>mac</a></li>
+       	  			<li><a href=""><span class="icon"></span>手机</a></li>
+       	  			<li><a href=""><span class="icon"></span>耳机</a></li>
+       	  			<li><a href=""><span class="icon"></span>电视</a></li>
+       	  			<li><a href=""><span class="icon"></span>iphoneX</a></li>
+       	  			<li><a href=""><span class="icon"></span>蓝牙</a></li>
+       	  		</ul>
+       	  	</div>
+       	   </div>
+       	  </div>
+
+       </div>
+    </div>
+    
+    <div class="main-messe">
+     <div class="container">
+      <div class="message">
+       <ul class="clearfix">
+       	<li class="exposure top left"><a href=""><i class="iconfont"></i>选购手机</a></li>
+       	<li class="exposure top"><a href=""><i class="iconfont"></i>企业团购</a></li>
+       	<li class="exposure top"><a href=""><i class="iconfont"></i>F码通道</a></li>
+       	<li class="exposure bottom left"><a href=""><i class="iconfont"></i>米粉卡</a></li>
+       	<li class="exposure bottom"><a href=""><i class="iconfont"></i>以旧换新</a></li>
+       	<li class="exposure bottom"><a href=""><i class="iconfont"></i>话费充值</a></li>
+       </ul>
+      </div>
+      <ul class="small-image">
+      	<li><a href=""><img src="images/small1.jpg" alt=""></a></li>
+      	<li><a href=""><img src="images/small2.png" alt=""></a></li>
+      	<li><a href=""><img src="images/small3.png" alt=""></a></li>
+      </ul>
+
+
+     </div>
+    </div>
+    
+    <div class="Jbuy">
+       <div class="container">
+       	  <div class="box-hd"><h2>奈瑞闪购</h2></div>
+       	  <div class="box-bd">
+       	  	<ul class="Jtime"></ul>
+       	  	<ul class="Jcom clearfix">
+       	  		<li class="item item-1">
+       	  			<a class="ImageBox" href="">
+       	  				<div class="itemImage">
+       	  				   <a href=""><img src="images/item1.jpg" alt=""></a>
+       	  				   <h3>高清双摄</h3>
+       	  				   <p>后双摄，让你拥有高清图片</p>
+                           <p class="price"><span><i>1799</i>元</span><del>1999元</del></p>
+       	  				</div>
+       	  			</a>
+       	  		</li>
+       	  		<li class="item item-2"><a class="ImageBox" href="">
+       	  			    <div class="itemImage">
+       	  				   <a href=""><img src="images/item2.jpg" alt=""></a>
+       	  				   <h3>1600万美颜自拍</h3>
+       	  				   <p>有了它，您就拥有了盛世美颜</p>
+                           <p class="price"><span><i>1600</i>元</span><del>1789元</del></p>
+       	  				</div></a></li>
+       	  		<li class="item item-3"><a class="ImageBox" href="">
+       	  			    <div class="itemImage">
+       	  				   <a href=""><img src="images/item3.jpg" alt=""></a>
+       	  				   <h3>电动牙刷套装</h3>
+       	  				   <p>给牙齿来个按摩吧</p>
+                           <p class="price"><span><i>666</i>元</span><del>789元</del></p>
+       	  				</div></a></li>
+       	  		<li class="item item-4"><a class="ImageBox" href="">
+       	  			     <div class="itemImage">
+       	  				   <a href=""><img src="images/item4.jpg" alt=""></a>
+       	  				   <h3>扫地机器人</h3>
+       	  				   <p>给您干净舒适的家</p>
+                           <p class="price"><span><i>1400</i>元</span><del>1699元</del></p>
+       	  				</div></a></li>
+       	  	</ul>
+       	  </div>
+       </div>
+    </div>
+    
+    <div class="ban">
+       <div class="container">
+       	 <img src="images/banTwo.png" alt="">
+       </div>
+    </div>
+    
+    <div class="Jlazy">
+      <div class="container">
+      	<div class="Jlazy-h clearfix">
+      	   <h2>手机</h2> <a href="">查看全部<span>></span></a>
+      	</div>
+      	<div class="Jlazy-descri clearfix">
+      	   <ul class="jlazy-one">
+      	   	 <a href=""><img data-src="images/lazy1.png" src="" alt="图片加载中..."></a>
+      	   </ul>
+      	   <ul class="jlazy-two clearfix">
+      	   	 <li>
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <img data-src="images/lazy2.jpg" src="" alt="图片加载中...">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del></del>
+      	   	 	</a>
+      	   	 </li>
+      	   	 <li>
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <img data-src="images/lazy3.jpg" src="" alt="图片加载中...">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del></del>
+      	   	 	</a>
+      	   	 </li>
+      	   	 <li>
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <img data-src="images/lazy4.jpg" src="" alt="图片加载中...">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del></del>
+      	   	 	</a>
+      	   	 </li>
+      	   	 <li>
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <div class="Dprice">减 200 元</div>
+      	   	 	   <img data-src="images/lazy5.jpg" src="" alt="图片加载中...">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del>799元</del>
+      	   	 	</a>
+      	   	 </li>
+      	   	 <li class="lazy-bottom">
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <img data-src="images/lazy6.jpg" src="" alt="图片加载中...">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del></del>
+      	   	 	</a>
+      	   	 </li>
+      	   	 <li class="lazy-bottom">
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <div class="Dprice">减 400 元</div>
+      	   	 	   <img data-src="images/lazy7.jpg" src="" alt="图片加载中...">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del>999元</del>
+      	   	 	</a>
+      	   	 </li>
+      	   	 <li class="lazy-bottom">
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <img data-src="images/lazy8.jpg" src="" alt="图片加载中...">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del></del>
+      	   	 	</a>
+      	   	 </li>
+      	   	 <li class="lazy-bottom">
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <img data-src="images/lazy9.jpg" src="" alt="图片加载中...">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del></del>
+      	   	 	</a>
+      	   	 </li>
+      	   </ul>
+      	</div>
+      	<div class="banner2">
+      	   <div class="container">
+      	   	 <img data-src="" src="images/banner2.png" alt="">
+      	   </div>
+      	</div>
+
+      	<div class="Jlazy-h clearfix">
+      	   <h2>家电</h2> <a href="">查看全部<span>></span></a>
+      	</div>
+      	<div class="Jlazy-descri clearfix">
+      	   <ul class="jlazy-one">
+      	   	 <a href=""><img src="images/lazy1.png" alt=""></a>
+      	   </ul>
+      	   <ul class="jlazy-two clearfix">
+      	   	 <li>
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <img src="images/lazy2.jpg" alt="">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del></del>
+      	   	 	</a>
+      	   	 </li>
+      	   	 <li>
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <img src="images/lazy3.jpg" alt="">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del></del>
+      	   	 	</a>
+      	   	 </li>
+      	   	 <li>
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <img src="images/lazy4.jpg" alt="">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del></del>
+      	   	 	</a>
+      	   	 </li>
+      	   	 <li>
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <div class="Dprice">减 200 元</div>
+      	   	 	   <img src="images/lazy5.jpg" alt="">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del>799元</del>
+      	   	 	</a>
+      	   	 </li>
+      	   	 <li class="lazy-bottom">
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <img src="images/lazy6.jpg" alt="">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del></del>
+      	   	 	</a>
+      	   	 </li>
+      	   	 <li class="lazy-bottom">
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <div class="Dprice">减 400 元</div>
+      	   	 	   <img src="images/lazy7.jpg" alt="">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del>999元</del>
+      	   	 	</a>
+      	   	 </li>
+      	   	 <li class="lazy-bottom">
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <img src="images/lazy8.jpg" alt="">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del></del>
+      	   	 	</a>
+      	   	 </li>
+      	   	 <li class="lazy-bottom">
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <img src="images/lazy9.jpg" alt="">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del></del>
+      	   	 	</a>
+      	   	 </li>
+      	   </ul>
+      	</div>
+      	<div class="banner2">
+      	   <div class="container">
+      	   	 <img src="images/banner3.png" alt="">
+      	   </div>
+      	</div>
+
+      	<div class="Jlazy-h clearfix">
+      	   <h2>配件</h2> <a href="">查看全部<span>></span></a>
+      	</div>
+      	<div class="Jlazy-descri clearfix">
+      	   <ul class="jlazy-one">
+      	   	 <a href=""><img src="images/lazy1.png" alt=""></a>
+      	   </ul>
+      	   <ul class="jlazy-two clearfix">
+      	   	 <li>
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <img src="images/lazy2.jpg" alt="">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del></del>
+      	   	 	</a>
+      	   	 </li>
+      	   	 <li>
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <img src="images/lazy3.jpg" alt="">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del></del>
+      	   	 	</a>
+      	   	 </li>
+      	   	 <li>
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <img src="images/lazy4.jpg" alt="">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del></del>
+      	   	 	</a>
+      	   	 </li>
+      	   	 <li>
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <div class="Dprice">减 200 元</div>
+      	   	 	   <img src="images/lazy5.jpg" alt="">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del>799元</del>
+      	   	 	</a>
+      	   	 </li>
+      	   	 <li class="lazy-bottom">
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <img src="images/lazy6.jpg" alt="">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del></del>
+      	   	 	</a>
+      	   	 </li>
+      	   	 <li class="lazy-bottom">
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <div class="Dprice">减 400 元</div>
+      	   	 	   <img src="images/lazy7.jpg" alt="">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del>999元</del>
+      	   	 	   <div class="Dbottom" style="display:none">
+      	   	 	   	 <p>手感还是很好的</p>
+      	   	 	   	 <p>来自于<span>121324</span>条评价</p>
+      	   	 	   </div>
+      	   	 	</a>
+      	   	 </li>
+      	   	 <li class="lazy-bottom">
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <img src="images/lazy8.jpg" alt="">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del></del>
+      	   	 	</a>
+      	   	 </li>
+      	   	 <li class="lazy-bottom">
+      	   	 	<a class="lazy-a" href="">
+      	   	 	   <img src="images/lazy9.jpg" alt="">
+      	   	 	   <h3>跑步鞋</h3>
+      	   	 	   <p>防滑更安全</p>
+      	   	 	   <span class="price">599元</span><del></del>
+      	   	 	</a>
+      	   	 </li>
+      	   </ul>
+      	</div>
+      	<div class="banner2">
+      	   <div class="container">
+      	   	 <img src="images/banner4.png" alt="">
+      	   </div>
+      	</div>
+        
+        <div class="Jlazy-h clearfix">
+      	   <h2>视频</h2> <a href="">查看全部<span>></span></a>
+      	</div>
+        <div class="player">
+           <ul class="playerBox clearfix">
+           	<li>
+           		<a href="">
+           		    <div class="playerTop">
+           		    </div>
+           		   <span class="playerBtn"></span>
+           		   <img src="images/player1.jpg" alt="">
+           		   <h3>品质之魂 存于匠心</h3>
+           		   <p>xx手机品质的工程师访谈</p>
+           		</a>
+           	</li>
+           	<li>
+           		<a href="">
+           		   <div class="playerTop">
+           		  </div>
+           		   <span class="playerBtn"></span>
+           		  <img src="images/player2.jpg" alt="">
+           		  <h3>品质之魂 存于匠心</h3>
+           		  <p>xx手机品质的工程师访谈</p>
+           		</a>
+           	</li>
+           	<li>
+           		<a href="">
+           		  <div class="playerTop">
+           		  </div>
+           		   <span class="playerBtn"></span>
+           		  <img src="images/player3.jpg" alt="">
+           		  <h3>品质之魂 存于匠心</h3>
+           		  <p>xx手机品质的工程师访谈</p>
+           		</a>
+           	</li>
+           	<li>
+           		<a href="">
+                  <div class="playerTop">
+           		  </div>
+           		   <span class="playerBtn"></span>
+           		  <img src="images/player4.jpg" alt="">
+           		  <h3>品质之魂 存于匠心</h3>
+           		  <p>xx手机品质的工程师访谈</p>
+           		</a>
+           	</li>
+           </ul>
+        </div>
+
+      </div>
+    </div>
+    
+    <div class="pop" style="display:none">
+      <div class="main">
+      	<div class="top">
+      	  <p>品质之魂 存于匠心</p>
+      	  <span class="close">X</span>
+      	</div>
+        <div class="content">
+           
+        </div>
+      </div>
+    </div>
+     
+    <!--回到顶部效果-->
+    <div id="Jtop">
+      <ul>
+      	<li><a href=""></a></li>
+      	<li><a href=""></a></li>
+      </ul>
+    </div>
+
+  	<footer>
+  	  <div class="container">
+  	  	<div class="footer-top clearfix">
+  	  	  <div class="logo">
+  	  	  	<img src="images/logo.png" alt="">
+  	  	  </div>
+  	  	  <div class="footer-message">
+  	  	  	<div class="top">
+  	  	  	  <a href="">奈瑞商城</a>
+  	  	  	  <a href="">游戏</a>
+  	  	  	  <a href="">音乐</a>
+  	  	  	  <a href="">路由器</a>
+  	  	  	  <a href="">多看</a>
+  	  	  	  <a href="">论坛</a>
+  	  	  	  <a href="">反馈</a>
+  	  	  	  <a href="">信息</a>
+  	  	  	  <a href="">隐私政策</a>
+  	  	  	  <a href="">问题反馈</a>
+  	  	  	</div>
+  	  	  	<div class="bottom">
+  	  	  		<p>
+  	  	  		©nyris.com 京ICP证1106546号 京ICP备6465464576号 京公网安备5234235423532号 京网文535325号 
+  	  	  		</p>
+  	  	  		<p>
+                违法和不良信息举报电话:188-8888-8888，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+                </p>
+  	  	  	</div>
+  	  	  </div>
+  	  	  <div class="footer-logo">
+  	  	  	<a href=""><img src="images/v-logo-1.png" alt=""></a>
+  	  	  	<a href=""><img src="images/v-logo-2.png" alt=""></a>
+  	  	  	<a href=""><img src="images/v-logo-3.png" alt=""></a>
+  	  	  	<a href=""><img src="images/v-logo-4.png" alt=""></a>
+  	  	  	
+  	  	  </div>
+  	  	</div>
+  	  	<div class="footer-bottom">
+  	  		<p>奈瑞商城，品质保证</p>
+  	  	</div>
+  	  </div>	
+  	</footer>
+
+  	<script src="js/index.js" type="text/javascript"></script>
+  </body>
+</html>
